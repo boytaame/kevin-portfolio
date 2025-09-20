@@ -30,7 +30,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-90 h-90 bg-red-600 rounded-lg overflow-hidden">
                 <img 
-                  src="src/imgs/pic1.jpg"
+                  src="https://i.imgur.com/fW6ifOe.jpeg"
                   alt="Kevin Jerome"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
                 />

@@ -56,7 +56,7 @@ const Services = () => {
     <section className="py-20 bg-gray-950">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 items-center justify-center">
-          <img className="mx-auto w-80 rounded-lg" src="src/imgs/whativedone.png"></img>
+          <h1 className="text-5xl font-bold text-white">What I've done</h1>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
