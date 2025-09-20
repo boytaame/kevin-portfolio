@@ -1,6 +1,3 @@
-import React from 'react';
-import { Download } from 'lucide-react';
-
 const About = () => {
   const skills = [
     { name: 'HTML', color: 'bg-orange-500' },

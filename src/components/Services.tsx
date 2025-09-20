@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mouse, Target, Dumbbell, BookImage, NotebookTabs, Languages } from 'lucide-react';
 
 const Services = () => {
