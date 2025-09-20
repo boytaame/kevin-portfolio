@@ -53,8 +53,10 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-950">
-      <div className="container mx-auto px-6">
+    <section className="relative py-20 bg-gray-950">
+      {/* Bottom gradient to blend into Contact (bg-gray-800) */}
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-gray-800" />
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 items-center justify-center">
           <h1 className="text-5xl font-bold text-white">What I've done</h1>
         </div>

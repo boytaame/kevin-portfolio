@@ -5,8 +5,15 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen bg-gray-950 flex items-center">
-      <div className="container mx-auto px-6 py-20">
+    <section
+      id="home"
+      className="relative min-h-screen bg-gray-950 flex items-center bg-cover bg-center"
+      style={{ backgroundImage: "url('https://i.imgur.com/tG3d66f.png')" }}
+    >
+      <div className="absolute inset-0 bg-black/30" />
+      {/* Bottom gradient to blend into About (bg-gray-900) */}
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-gray-900" />
+      <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-red-500 text-lg font-medium">Hello, My Name Is</p>

@@ -8,8 +8,10 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-gray-900">
-      <div className="container mx-auto px-6">
+    <section id="about" className="relative py-20 bg-gray-900">
+      {/* Bottom gradient to blend into Services (bg-gray-950) */}
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-gray-950" />
+      <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="flex justify-center">
             <div className="relative">
